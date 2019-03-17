@@ -65,19 +65,27 @@
                         <div class="help-block">Minimum of 6 characters</div>
                     </div>
                     <div class="form-group">
-                        <input id="cpsw" type="password" class="form-control" name="confirm password" data-match="#psw" data-match-error="Whoops, these don't match" placeholder="Confirm Password" required="required">
-
+                        <input id="cpsw" type="password" class="form-control" style= "padding-bottom: 0px;" name="confirm password" data-match="#psw" data-match-error="Whoops, these don't match" placeholder="Confirm Password" required="required">
+                        
+    <!-- Match message -->
+                        <div id="message" style="display:inline-flex;">
+                        <p id="match" class="invalid">Passwords Match</p>
+                         </div>
                     </div>
 
                     <div class="form-group">
                         <button id="my_submit_button" class="btn btn-primary btn-block login-btn" disabled onClick="onClickFunction()">Sign Up</button>
                     </div>
                 </div>
+
+        <!--
                 <div class="modal-footer">
                     <div id="message" style="display:block">
                         <p id="match" class="invalid">Password and Confirm Password Match</p>
                     </div>
                 </div>
+
+        -->
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@ function openModal() {
     var match = document.getElementById("match");
 
 
-    /* TODO Question 1.3: Starts here */
+ 
     confirmMyInput.onkeyup = function() {
         // Validate password and confirmPassword
         var passEqualsConfPass = (myInput.value == confirmMyInput.value); // TODO: Change this to the condition that needs to be checked so that the text entered in password equals the text in confirm password
@@ -20,18 +20,15 @@ function openModal() {
             match.classList.remove("valid");
             match.classList.add("invalid");
         }
-        /* TODO Question 1.3: Starts here */
-
-        // Disable or Enable the button based on the elements in classList
+     
         enableButton(match);
     }
 }
 
 
-function enableButton(match) {
-    // TODO: Clear this function for students to implement    
+function enableButton(match) {  
     var button = document.getElementById('my_submit_button');
-    var condition = (match.classList.contains("valid")); // TODO: Replace false with the correct condition
+    var condition = (match.classList.contains("valid"));
     if (condition) {
         button.disabled = false;
     } else {

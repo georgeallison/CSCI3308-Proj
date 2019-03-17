@@ -107,16 +107,14 @@ input[type=submit] {
 /* The message box is shown when the user clicks on the password field */
 #message {
   display:none;
-  background: #f1f1f1;
   color: #000;
   position: relative;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 10px;
 }
 
 #message p {
-  padding: 10px 35px;
-  font-size: 18px;
+  padding: 5px 5px;
+  font-size: 9px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */
