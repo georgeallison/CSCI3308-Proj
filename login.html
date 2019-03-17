@@ -16,24 +16,31 @@
 </head>
 
 <body>
-	<div class="jumbotron jumbotron-fluid">
-		<div class="container">
+	<div class="jumbotron jumbotron-fluid" style="background-image: url('img/plantbackground.jpg');">
+		<div class="container" style="background:transparent; color: white;">
 			<h1>Welcome to GreenThumb!</h1>
 			<p>Don't forget your plants</p>
 		</div>
 	</div>
-<div class="form-group">
-						<input type="text" class="form-control" name="firstName" placeholder="First Name"
-							required="required">
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" name="lastName" placeholder="Last Name"
+
+	<div class="form-group" style="width: 20%; margin:0 auto;">
+		<input type="text" class="form-control" name="username" placeholder="Username" 	required="required">
+	</div>
+
+	<div class="form-group" style="width: 20%; margin:0 auto;">
+		<input type="text" class="form-control" name="password" placeholder="Password"
 		required="required">
-	</div>					
+	</div>
+
+	<div class="text-center">
+		<a href="#" class="btn btn-success">Login</a>
+	</div>
+	
+	<br>
+
 	<!-- Button to click to show the modal-->
 	<div class="text-center">
-		<a href="#myModal" class="btn btn-info" data-toggle="modal" onclick="openModal()">Click to Open Sign Up
-			Modal</a>
+		<a href="#myModal" class="btn btn-info" data-toggle="modal" onclick="openModal()">Make an account</a>
 	</div>
 
 	<!-- Modal HTML -->

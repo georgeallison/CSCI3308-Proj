@@ -140,3 +140,15 @@ input[type=submit] {
   left: -35px;
   content: "✖";
 }
+
+/*~~~~~~~~~~~~~~~~`*/
+
+.gh1 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 63px;
+}
