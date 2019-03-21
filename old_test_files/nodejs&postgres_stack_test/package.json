@@ -1,0 +1,23 @@
+{
+  "name": "greenthumb",
+  "version": "1.0.0",
+  "description": "greenthumb project for CSCI3308 Spring 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeallison/CSCI3308-Proj.git"
+  },
+  "author": "George Allison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgeallison/CSCI3308-Proj/issues"
+  },
+  "homepage": "https://github.com/georgeallison/CSCI3308-Proj#readme",
+  "dependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
