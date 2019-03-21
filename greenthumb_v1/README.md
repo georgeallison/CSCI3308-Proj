@@ -1,4 +1,4 @@
-## Preliminary version
+## Incomplete test version of the final application
 As of March 20, this version (1.0) is not yet a working model.
 
 Setup:
