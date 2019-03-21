@@ -1,7 +1,8 @@
+## Preliminary version
 As of March 20, this version (1.0) is not yet a working model.
 
 Setup:
--Relies on nix/npm
+-Relies on npx/npm
 -Setup with 'greenthumb' Postgres db on George's machine
 
 Next steps:
