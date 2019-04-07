@@ -1,0 +1,168 @@
+body, html {
+	height: 100%;
+	min-width: 1080px;
+	min-height: 100%;
+	font-family: 'Lato' sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-image: url('images/bg.jpg');
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.material-icons.md-100 {
+	font-size: 150px;
+	text-decoration: none;
+	top: 60%;
+	left: 50%;
+	transform: translate(120%, 30%);
+}
+
+.material-icons.md-100:hover {
+	border: 1px solid black;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer-linkedlist a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer-linkedlist a:hover {
+	color: grey;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 0;
+	text-align: center;
+}
+
+.list-items {
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.headline {
+	font-size: 1.8em;
+}
+
+.navbar {
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+}
+
+/* GLOBAL */
+.container {
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+#showcase {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+}
+
+
+#showcase h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 4.2em;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+
+#section1 {
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		#28B463 0%, 
+		#28B463 50%, 
+		white 50%,
+		white 100%
+		);
+	font-family: 'Lato', sans-serif;
+}
+
+#section1 h2 {
+	float: left;
+	color: black;
+	padding-top: 150px;
+	margin-top: 50px;
+	width: 30%;
+	font-size: 2.5em;
+}
+
+#section1 p {
+	float: under;
+	font-size: 1.3em;
+	color: black;
+	width: 25%;
+}
+
+#section1 img {
+	padding-top: 225px;
+	float: right;
+	width: 55%;
+}
+
+#section2 {
+	height: 100%;
+	background: lightblue;
+	font-family: 'Lato', sans-serif;
+}
+
+#section2 h2 {
+	float: right;
+	color: black;
+	padding-top: 150px;
+	margin-top: 50px;
+	width: 30%;
+	font-size: 2.5em;
+}
+
+#section2 p {
+	float: right;
+	font-size: 1.3em;
+	color: black;
+	width: 30%;
+}
+
+#section2 img {
+	padding-top: 200px;
+	float: left;
+	width: 55%;
+}
+
+/* ANIMATIONS */
+a[id="target1"]:target ~ #main div.panel {
+	-webkit-transform: translateY(0px);
+	transform: translateY(0px);
+}
