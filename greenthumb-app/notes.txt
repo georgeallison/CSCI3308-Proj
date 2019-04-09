@@ -1,0 +1,17 @@
+April 8
+Running into "db not defined" error in 'routes/index.js'.
+
+Full error message:
+ReferenceError: db is not defined
+    at getHomePage (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/routes/index.js:5:9)
+    at Layer.handle [as handle_request] (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/index.js:275:10)
+    at /Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express-fileupload/lib/index.js:29:14
+    at Layer.handle [as handle_request] (/Users/george/Documents/School/SoftwareDev/Project/CSCI3308-Proj/greenthumb-app/node_modules/express/lib/router/layer.js:95:5)
+
+- There is probably a problem with app.js and the db variable not being recognized globally.
