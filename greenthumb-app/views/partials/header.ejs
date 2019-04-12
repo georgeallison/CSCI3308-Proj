@@ -1,31 +1,19 @@
-<!-- Partial file, included in the beginning of ancillary pages -->
-
-<!DOCTYPE html>
-<html lang = "en">
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GreenThumb</title>
-</head>
-<style>
-    .table-wrapper {
-        margin-top: 50px;
-    }
-
-    .player-img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .add-player-form {
-        margin-top: 50px;
-    }
-</style>
-<body>
-    <div class="page-wrapper">
-        <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1" ><a href="/">Plants</a></span>
-            <a class="float-right" href="/add" title="Add a Plant">Add a Plant</a>
-        </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title><% my_title %></title>
+	
+	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<% if(typeof local_css == 'string' && local_css){ %>
+	 <link href="../resources/css/<%=local_css%>" rel="stylesheet">
+	<% } %>
+    <!-- Custom styles for this template -->
+	<link href="../resources/css/my_style.css" rel="stylesheet">
+	
+  </head>
+  <body>
